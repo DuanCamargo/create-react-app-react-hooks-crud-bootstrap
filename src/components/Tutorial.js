@@ -2,7 +2,7 @@ import React from "react";
 const Tutorial = () => {
   return (
     <div >   
-      <label>TUTORIAL</label>
+      <label>TUTORIAL 9</label>
     </div>
   );
 };
