@@ -1,7 +1,8 @@
 import React from "react";
 const AddTutorial = () => {
   return (
-    <div >    
+    <div >   
+      <label>ADD TUTORIAL</label> 
     </div>
   );
 };

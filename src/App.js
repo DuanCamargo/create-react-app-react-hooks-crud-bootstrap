@@ -8,7 +8,7 @@ import TutorialList from "./components/TutorialList";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <a href="/tutorials" className="navbar-brand">
           Exemplo Bootstrap

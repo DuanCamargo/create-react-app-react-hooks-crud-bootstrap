@@ -5,9 +5,6 @@ import App from "./App";
 import * as reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
   <BrowserRouter>
     <App />
   </BrowserRouter>,
@@ -18,5 +15,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
-reportWebVitals();
-// serviceWorker.unregister();
+// reportWebVitals();
+// ServiceWorker.unregister();
