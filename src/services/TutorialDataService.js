@@ -9,8 +9,8 @@ let PRODUCTS = [
   
   const getById = (title) => {
     if (title === "") return PRODUCTS
-    //var filtrado = PRODUCTS.filter((obj) => { return obj.title == title; });  // retorna os objs que são iguais
-    //var filtrado = PRODUCTS.filter((obj) => obj.title == title ); // retorna os objs que são iguais
+    var filtrado = PRODUCTS.filter((obj) => { return obj.title == title; });  // retorna os objs que são iguais
+    var filtrado = PRODUCTS.filter((obj) => obj.title == title ); // retorna os objs que são iguais
     var filtrado = PRODUCTS.filter((obj) => obj.title.includes(title) ); // retorna os objs que contém 
     return filtrado
   
